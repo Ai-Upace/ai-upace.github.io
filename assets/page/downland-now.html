@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DownlandDocument</title>
+    <link rel="stylesheet" href="/assets/styles/style-downland.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        h2 {
+            font-family: Helvetica;
+            font-size: 36px;
+            margin-top: 40px;
+            color: #333;
+        }
+        .circle {
+            stroke-dasharray: 1194;
+            stroke-dashoffset: 0;
+        }
+        .tick {
+            stroke-dasharray: 350;
+            stroke-dashoffset: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div>
+        <h1>Userlang -- Downland</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/assets/page/product-book.html">Product</a></li>
+            <li><a href="/assets/page/lanxing-aerospace.html">Cooperation</a></li>
+            <li><a href="/assets/page/about.html">About</a></li>
+            <li><a href="/assets/page/downland-now.html">Download</a></li>
+            <li><a href="/assets/page/community-newstar.html">Community</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <svg width="400" height="400">
+        <circle fill="none" stroke="#68E534" stroke-width="20"
+        cy="200" cx="200" r="190" class="circle" stroke-linecap="round"
+        transform="rotate(-90 200 200)"></circle>
+        <polyline fill="none" stroke="#68E534" stroke-width="24"
+        points="88,214 173,284 304,138" stroke-linecap="round"
+        stroke-linejoin="round" class="tick"/>
+    </svg>
+    <h2>Done!</h2>
+</body>
+</html>
